@@ -114,7 +114,6 @@
 				6E382CB521D20E100020BED3 /* Main.storyboard */,
 				6E382CBD21D20E110020BED3 /* LaunchScreen.storyboard */,
 				6E382CE021D20EA70020BED3 /* HomeController.swift */,
-				6E382CC021D20E110020BED3 /* Info.plist */,
 				6E382CDD21D20EA60020BED3 /* CustomImageView.swift */,
 				6E382CE321D20EA70020BED3 /* Extensions.swift */,
 				6E382CD821D20EA60020BED3 /* FeedCell.swift */,
@@ -128,6 +127,7 @@
 				6E382CE121D20EA70020BED3 /* VideoCell.swift */,
 				6E382CD921D20EA60020BED3 /* VideoLauncher.swift */,
 				6E382CB821D20E100020BED3 /* youtube.xcdatamodeld */,
+				6E382CC021D20E110020BED3 /* Info.plist */,
 			);
 			path = youtube;
 			sourceTree = "<group>";
