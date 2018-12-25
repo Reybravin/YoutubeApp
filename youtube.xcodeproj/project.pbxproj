@@ -28,7 +28,6 @@
 		6E382CF021D20EA70020BED3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E382CE221D20EA70020BED3 /* Video.swift */; };
 		6E382CF121D20EA70020BED3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E382CE321D20EA70020BED3 /* Extensions.swift */; };
 		6E382CF321D20EBD0020BED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E382CF221D20EBD0020BED3 /* Assets.xcassets */; };
-		6E382D2621D2116D0020BED3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E382CC021D20E110020BED3 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,7 +222,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E382D2621D2116D0020BED3 /* Info.plist in Resources */,
 				6E382CBF21D20E110020BED3 /* LaunchScreen.storyboard in Resources */,
 				6E382CF321D20EBD0020BED3 /* Assets.xcassets in Resources */,
 				6E382CB721D20E100020BED3 /* Main.storyboard in Resources */,
