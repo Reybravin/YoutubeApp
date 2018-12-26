@@ -107,26 +107,13 @@
 		6E382CB021D20E100020BED3 /* youtube */ = {
 			isa = PBXGroup;
 			children = (
-				6E382CF221D20EBD0020BED3 /* Assets.xcassets */,
-				6E382CB121D20E100020BED3 /* AppDelegate.swift */,
-				6E382CD421D20E9D0020BED3 /* ApiService.swift */,
-				6E382CB321D20E100020BED3 /* ViewController.swift */,
-				6E382CB521D20E100020BED3 /* Main.storyboard */,
-				6E382CBD21D20E110020BED3 /* LaunchScreen.storyboard */,
-				6E382CE021D20EA70020BED3 /* HomeController.swift */,
-				6E382CDD21D20EA60020BED3 /* CustomImageView.swift */,
+				6ED960C821D364510039E7DF /* Models */,
+				6ED960C921D3645C0039E7DF /* Views */,
+				6ED960CA21D364690039E7DF /* View Controllers */,
+				6ED960CE21D365A20039E7DF /* Services */,
+				6ED960CD21D365960039E7DF /* Enums */,
+				6ED960CC21D364C90039E7DF /* Supporting Files */,
 				6E382CE321D20EA70020BED3 /* Extensions.swift */,
-				6E382CD821D20EA60020BED3 /* FeedCell.swift */,
-				6E382CDC21D20EA60020BED3 /* MenuBar.swift */,
-				6E382CD621D20EA60020BED3 /* SettingCell.swift */,
-				6E382CD721D20EA60020BED3 /* SettingName.swift */,
-				6E382CDF21D20EA70020BED3 /* SettingsLauncher.swift */,
-				6E382CDB21D20EA60020BED3 /* SubscriptionCell.swift */,
-				6E382CDA21D20EA60020BED3 /* TrendingCell.swift */,
-				6E382CE221D20EA70020BED3 /* Video.swift */,
-				6E382CE121D20EA70020BED3 /* VideoCell.swift */,
-				6E382CD921D20EA60020BED3 /* VideoLauncher.swift */,
-				6E382CB821D20E100020BED3 /* youtube.xcdatamodeld */,
 				6E382CC021D20E110020BED3 /* Info.plist */,
 			);
 			path = youtube;
@@ -139,6 +126,67 @@
 				6E382CCB21D20E110020BED3 /* Info.plist */,
 			);
 			path = youtubeTests;
+			sourceTree = "<group>";
+		};
+		6ED960C821D364510039E7DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CE221D20EA70020BED3 /* Video.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6ED960C921D3645C0039E7DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CDD21D20EA60020BED3 /* CustomImageView.swift */,
+				6E382CDC21D20EA60020BED3 /* MenuBar.swift */,
+				6E382CD821D20EA60020BED3 /* FeedCell.swift */,
+				6E382CD621D20EA60020BED3 /* SettingCell.swift */,
+				6E382CDB21D20EA60020BED3 /* SubscriptionCell.swift */,
+				6E382CDA21D20EA60020BED3 /* TrendingCell.swift */,
+				6E382CE121D20EA70020BED3 /* VideoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6ED960CA21D364690039E7DF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CE021D20EA70020BED3 /* HomeController.swift */,
+				6E382CB321D20E100020BED3 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6ED960CC21D364C90039E7DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CB121D20E100020BED3 /* AppDelegate.swift */,
+				6E382CB821D20E100020BED3 /* youtube.xcdatamodeld */,
+				6E382CBD21D20E110020BED3 /* LaunchScreen.storyboard */,
+				6E382CB521D20E100020BED3 /* Main.storyboard */,
+				6E382CF221D20EBD0020BED3 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ED960CD21D365960039E7DF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CD721D20EA60020BED3 /* SettingName.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6ED960CE21D365A20039E7DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E382CD421D20E9D0020BED3 /* ApiService.swift */,
+				6E382CD921D20EA60020BED3 /* VideoLauncher.swift */,
+				6E382CDF21D20EA70020BED3 /* SettingsLauncher.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

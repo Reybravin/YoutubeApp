@@ -212,7 +212,7 @@ class VideoPlayerView: UIView {
 }
 
 class VideoLauncher: NSObject {
-    
+      
     func showVideoPlayer() {
         print("Showing video player animation....")
         
